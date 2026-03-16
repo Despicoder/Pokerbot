@@ -9,12 +9,13 @@ A complete setup for the **IIT Pokerbots 2026** competition — includes the bot
 ```
 Pokerbot/
 ├── bot-engine-2026/        # Competition engine & heuristic test bots
-│   ├── bot_template.py     # Template for building your final bot
-│   ├── heuristic_bots/     # Rule-based bots for local testing
-│   └── ...
+│   ├── bot.py              # bot implementation
+│   ├── example_bot.py      # Rule-based bots for local testing
+│   └── ...                 # Official rules and implementations documented by official IIT Pokerbots organisers
 ├── cfr_training/           # Counterfactual Regret Minimization training
 │   ├── cfr_train.py        # Main CFR training script
 │   ├── build_bot.py        # Bakes strategy + template into final bot
+|   ├── bot_template.py     # Template for building your final bot
 │   └── ...
 ├── IITPokerbots_PS.pdf     # Official problem statement
 └── README.md
@@ -26,11 +27,7 @@ Pokerbot/
 
 **Prerequisites:** Python 3.8+
 
-```bash
-git clone https://github.com/Despicoder/Pokerbot.git
-cd Pokerbot
-pip install -r requirements.txt   # if available
-```
+*Further instructions are given inside bot-engine-2026*
 
 ---
 
